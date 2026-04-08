@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harshad Ujalambe — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<!-- CURSOR GLOW -->
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- ─── NAVBAR ─── -->
+<header class="navbar">
+  <a class="nav-logo">HarshadUjalambe<span></span></a>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <button class="theme-btn" id="themeBtn" onclick="toggleDarkMode()">🌙</button>
+  </nav>
+</header>
+
+<!-- ─── HERO ─── -->
+<section id="home" class="hero">
+  <div class="hero-bg-text">HU</div>
+
+  <div class="hero-content">
+    <div class="hero-left">
+      <div class="hero-badge">Available for Internships</div>
+      <h1>
+        <span class="name-line">Harshad</span>
+        <span class="name-line"><span class="accent-word">Ujalambe</span></span>
+      </h1>
+      <p class="hero-tag">Aspiring Software Developer</p>
+      <p class="hero-desc">
+        CSE student at MIT Vishwaprayag University, passionate about programming, 
+        problem solving, and building things that matter.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-outline">Say Hello →</a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-img-wrapper">
+        <img src="F:\Portfolio\assets\images\profile.jpg.png" alt="Harshad Ujalambe">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── ABOUT ─── -->
+<section id="about" class="section">
+  <span class="section-label reveal">About Me</span>
+  <h2 class="section-title reveal">Building the future,<br>one line at a time.</h2>
+  <p class="section-sub reveal">
+    I'm a first-year Computer Science Engineering student at MIT Vishwaprayag University, 
+    Solapur. Currently diving deep into C, Data Structures, and algorithms.
+  </p>
+
+  <div class="about-grid">
+    <div class="info-card reveal reveal-delay-1">
+      <div class="card-icon">🎓</div>
+      <h3>Education</h3>
+      <p>B.Tech in Computer Science Engineering (2025–2029)</p>
+      <p style="margin-top: 8px; font-size: 13px; color: var(--muted);">HSC — 65% &nbsp;|&nbsp; MIT Vishwaprayag University</p>
+    </div>
+
+    <div class="info-card reveal reveal-delay-2">
+      <div class="card-icon">⚡</div>
+      <h3>Tech Stack</h3>
+      <div class="skill-tags">
+        <span class="tag">C Programming</span>
+        <span class="tag">DSA</span>
+        <span class="tag">GitHub</span>
+        <span class="tag">VS Code</span>
+        <span class="tag">Figma</span>
+        <span class="tag">HTML/CSS</span>
+      </div>
+    </div>
+
+    <div class="info-card reveal reveal-delay-3">
+      <div class="card-icon">🎯</div>
+      <h3>Career Goal</h3>
+      <p>To become a skilled software developer in the IT industry, contributing to meaningful products and growing with great teams.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ─── PROJECTS ─── -->
+<section id="projects" class="section" style="background: var(--bg2);">
+  <span class="section-label reveal">My Work</span>
+  <h2 class="section-title reveal">Projects I've Built</h2>
+  <p class="section-sub reveal">A collection of programming exercises and creative builds.</p>
+
+  <div class="projects-grid">
+    <div class="project-card featured reveal reveal-delay-1">
+      <span class="project-num">01 — FEATURED</span>
+      <h3 class="project-title">ACE Project</h3>
+      <p class="project-desc">A standout project showcasing advanced problem-solving and development skills.</p>
+      <span class="project-type">Featured Work</span>
+    </div>
+
+    <div class="project-card reveal reveal-delay-2">
+      <span class="project-num">02</span>
+      <h3 class="project-title">AI For All</h3>
+      <p class="project-desc">Exploring AI concepts and building an accessible interface for real-world users.</p>
+      <span class="project-type">AI / Innovation</span>
+    </div>
+
+    <div class="project-card reveal reveal-delay-3">
+      <span class="project-num">03</span>
+      <h3 class="project-title">Movie Dashboard UI</h3>
+      <p class="project-desc">A clean, responsive movie dashboard with dynamic content and modern layout.</p>
+      <span class="project-type">UI Design</span>
+    </div>
+
+    <div class="project-card reveal reveal-delay-1">
+      <span class="project-num">04</span>
+      <h3 class="project-title">String Reverse in C</h3>
+      <p class="project-desc">Core algorithm implementation with optimized logic and edge-case handling.</p>
+      <span class="project-type">C Programming</span>
+    </div>
+
+    <div class="project-card reveal reveal-delay-2">
+      <span class="project-num">05</span>
+      <h3 class="project-title">Array Operations</h3>
+      <p class="project-desc">Full suite of array manipulation algorithms — sort, search, insert, delete.</p>
+      <span class="project-type">Data Structures</span>
+    </div>
+
+    <div class="project-card reveal reveal-delay-3">
+      <span class="project-num">06</span>
+      <h3 class="project-title">Logic Gate Simulator</h3>
+      <p class="project-desc">Simulates AND, OR, NOT, XOR gates with truth table visualization.</p>
+      <span class="project-type">Digital Logic</span>
+    </div>
+  </div>
+</section>
+
+<!-- ─── CONTACT ─── -->
+<section id="contact" class="section">
+  <span class="section-label reveal">Get In Touch</span>
+  <h2 class="section-title reveal">Let's connect.</h2>
+
+  <div class="contact-wrapper">
+    <div class="simple-contact reveal">
+
+  <p>
+    <i class="fas fa-envelope icon"></i>
+    <a href="ujalambeharshad@gmail.com"><span class="__cf_email__" data-cfemail="87f2ede6ebe6eae5e2efe6f5f4efe6e3c7e0eae6eeeba9e4e8ea">[email&#160;protected]</span></a>
+  </p>
+
+  <p>
+    <i class="fas fa-phone icon"></i>
+    <a href="tel:+911234567890">+91 1234567890</a>
+  </p>
+
+  <p>
+    <i class="fab fa-github icon"></i>
+    <a href="https://github.com/yourprofile" target="_blank">
+      github.com/yourprofile
+    </a>
+  </p>
+
+  <p>
+    <i class="fab fa-linkedin icon"></i>
+    <a href="https://www.linkedin.com/in/harshad-ujalambe-617424380" target="_blank">
+      linkedin.com/in/harshad-ujalambe
+    </a>
+  </p>
+
+  <p>
+    <i class="fas fa-location-dot icon"></i>
+    <span>Solapur, Maharashtra, India</span>
+  </p>
+
+</div>
+
+    <div class="contact-cta reveal reveal-delay-2">
+      <h3>Open to internships &amp; collaborations.</h3>
+      <p>Whether you have a project idea, a job opportunity, or just want to say hi — my inbox is always open.</p>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=ujalambeharshad@gmail.com" target="_blank" class="btn-primary">
+  Send a Message →
+</a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── FOOTER ─── -->
+<footer>
+  <span>© 2025 Harshad Ujalambe</span>
+  <span>Built with HTML, CSS &amp; JS</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
